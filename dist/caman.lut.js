@@ -1,9 +1,9 @@
 Caman.Plugin.register("lut", function(lutFile) {
     var canvas = this.canvas;
-    var ctx = canvas.toDataURL();
+    var ctx = canvas.getContext('2d');
 
-    applyLutToImage(ctx, lutFile, function(canvas) {
-        console.log(ctx == canvas);
+    applyLutToImage(canvas.toDataURL(), lutFile, function(canvasReturned) {
+        ctx.drawImage(canvasReturned, 0, 0);
         this.replaceCanvas(canvas);
     }.bind(this));
 });
