@@ -1,0 +1,30 @@
+{
+  "name": "camanjs-lut-file",
+  "version": "1.0.0",
+  "description": "LUT (Lookup Table) plugin for CamanJS, is (ca)nvas (man)ipulation library in Javascript. Works with the LUT file, e.g. SONY_EE_Slog2_LC709A.cube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "apply-cube-lut": "^1.0.0",
+    "browserify": "^14.4.0",
+    "canvas-from-ndarray": "^1.0.0",
+    "ndarray-from-image": "^1.0.1",
+    "ndarray-linear-interpolate": "^1.0.0",
+    "ndarray-ops": "^1.2.2",
+    "parse-cube-lut": "^1.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorelljames/camanjs-lut-file.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dorelljames/camanjs-lut-file/issues"
+  },
+  "homepage": "https://github.com/dorelljames/camanjs-lut-file#readme"
+}
